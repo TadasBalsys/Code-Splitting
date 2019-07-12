@@ -23,6 +23,27 @@
   color: #61dafb;
 }
 
+.btn-container{
+  display: inline;
+}
+
+button{
+  padding: 20px;
+  border: 2px solid blue;
+  margin: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  background: yellow;
+}
+
+.disabled{
+  cursor: not-allowed;
+  pointer-events: none;
+  color: #c0c0c0;
+  background: #ffffff;
+  border: 2px solid grey;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
